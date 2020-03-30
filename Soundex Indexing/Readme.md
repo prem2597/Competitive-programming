@@ -1,0 +1,3 @@
+The Soundex Index System was developed so that similar sounding names, or names with similar spelling could be encoded for easy retrieval. It has been used by the U.S. Bureau of the Census, and some States use it to help encode your driver’s license number. Your task is to read a sequence of names, one at a time and one per line, compute the corresponding soundex code, and write to the output file the name and its soundex code (one line of output per name).
+
+Names will contain from 1 to 20 upper case, alphabetic characters (ASCII values 65 thru 90, inclu-sive). Names shorter than 20 characters will NOT be padded with blanks. Thus a name will consist of upper case letters only.
