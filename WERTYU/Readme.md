@@ -1,0 +1,1 @@
+A common typing error is to place the hands on the keyboard one row to the right of the correct position. So ‘Q’ is typed as ‘W’ and ‘J’ is typed as ‘K’ and so on. You are to decode a message typed in this manner.
