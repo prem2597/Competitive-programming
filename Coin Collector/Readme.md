@@ -1,0 +1,2 @@
+Our dear Sultan is visiting a country where there are n different types of coin. He wants to collect as many different types of coin as you can. Now if he wants to withdraw X amount of money from a Bank, the Bank will give him this money using following algorithm.
+Now Sultan can withdraw any amount of money from the Bank. He should maximize the number of different coins that he can collect in a single withdrawal.
