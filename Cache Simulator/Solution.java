@@ -3,6 +3,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
+import java.util.LinkedList;
 
 public class Solution {
     LinkedList<Integer> cache = new LinkedList<>();
