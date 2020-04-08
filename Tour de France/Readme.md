@@ -1,0 +1,2 @@
+A racing bicycle is driven by a chain connecting two sprockets. Sprockets are grouped into two clusters: the front cluster (typically consisting of 2 or 3 sprockets) and the rear cluster (typically consisting of between 5 and 10 sprockets). At any time the chain connects one of the front sprockets to one of the rear sprockets.
+You are to compute the maximum spread between two adjacent drive ratios achieved by a particular pair of front and rear clusters.
