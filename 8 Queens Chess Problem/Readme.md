@@ -1,0 +1,3 @@
+In chess it is possible to place eight queens on the board so that no one queen can be taken by any other. Write a program that will determine all such possible arrangements for eight queens given the initial position of one of the queens.
+
+Do not attempt to write a program which evaluates every possible 8 configuration of 8 queens placed on the board. This would require 88 evaluations and would bring the system to its knees. There will be a reasonable run time constraint placed on your program.
