@@ -4,14 +4,13 @@ import java.util.*;
  * @author Prem
  */
 class Solution {
-	public static void main (String[] args) {
+	public static void main(String[] args) {
 		//code
 		Scanner sc = new Scanner(System.in);
 		int cases = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < cases; i++) {
 		    String[] size = sc.nextLine().split(" ");
 		    int size1 = Integer.parseInt(size[0]);
-		    int size2 = Integer.parseInt(size[1]);
 		    String[] d1 = sc.nextLine().split(" ");
 		    String[] d2 = sc.nextLine().split(" ");
 		    int[] a1 = new int[size1];
@@ -35,9 +34,9 @@ class Solution {
 		        }
 		        h1.remove(Integer.parseInt(d2[j]));
 		    }
-		    TreeMap<Integer,Integer> tm = new TreeMap<Integer,Integer> (h1);  
-            Iterator itr = tm.keySet().iterator();               
-            while(itr.hasNext()) {    
+		    TreeMap<Integer,Integer> tm = new TreeMap<Integer,Integer> (h1);
+            Iterator itr = tm.keySet().iterator();
+            while(itr.hasNext()) {
                 int key=(int)itr.next();
                 if(h1.get(key) > 1) {
                     for(int k = 0; k < h1.get(key); k++) {
@@ -46,7 +45,7 @@ class Solution {
                     }
                 } else {
                     a1[index] = key;
-		            index ++; 
+		            index ++;
                 }
             }
 		    for (int p = 0; p < a1.length; p++) {
